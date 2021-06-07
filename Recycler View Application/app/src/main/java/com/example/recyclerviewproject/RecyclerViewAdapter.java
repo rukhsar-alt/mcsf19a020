@@ -27,7 +27,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 .inflate(R.layout.user, parent, false);
         return new MyViewHolder(itemView);
     }
-    
+
 
     @Override
     public void onBindViewHolder(@NonNull com.example.recyclerviewproject.RecyclerViewAdapter.MyViewHolder holder, int position) {
